@@ -3,6 +3,14 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
+# Terraform
+tf-backend.tf
+.terraform
+.terraform.lock.hcl
+
+# Vs Code
+.vscode
+
 # User-specific files
 *.rsuser
 *.suo
